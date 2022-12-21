@@ -1,0 +1,89 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left,skyblue,aliceblue);
+}
+
+.main{
+    width: 32rem;
+    height:33rem;
+    margin:2rem 0 0 0;
+    background-color: gray;
+    border-radius: 10px;
+}
+.main h2{
+    text-align: center;
+    color: white;
+    margin:5px 0 0 0;
+}
+
+.main-1{
+    width: 30rem;
+    height:20rem;
+    margin:10px 10px 0 15px;
+    /* background-color: yellow; */
+    border-radius: 10px;
+}
+
+.main-1 textarea{
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    resize: none;
+}
+.menu{
+    width: 30rem;
+    height: 5rem;
+    margin:20px 10px 0 15px;
+    /* background-color: green; */
+    display: flex;
+}
+.menu label{
+position: ab;
+}
+.menu input,select{
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius:5px;
+    text-align: center;
+    width: 200px;
+    height:30px;
+    margin: 20px 20px 20px 20px;
+}
+
+.btn{
+    width: 30rem;
+    height: 3rem;
+    background-color: aqua;
+    margin:10px 10px 0 15px;
+    border-radius: 10px;
+
+}
+.btn button{
+     width: 100%;
+     height: 100%;
+     font-size: 20px;
+     font-weight: 900;
+     transition: .3s linear;
+     border-radius: 10px;
+     cursor: pointer;
+     
+}
+
+.btn button:hover{
+    background-color: lightgrey;
+
+}
+
+
+@media only screen and (max-width:504px)
+{
+    .main{margin:auto;;
+    }
+}
